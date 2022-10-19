@@ -39,6 +39,9 @@ Go to the AWS sign console.When you at the portal interface go to the notificati
 
 ## 2. Create a S3 bucket 
 
+Amazon S3 is a Simple Storage Service, It allows people to store objects(files) in buckets...
+Meanwhile, Buckets must have a globally unique name, defined at the region level and Objects(files) have a KEY
+
 I created the s3 bucket using the command line below.
 
     aws s3 mb s3:// my-bucket-name --region us-east-1
