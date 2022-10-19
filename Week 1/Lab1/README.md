@@ -22,3 +22,23 @@ https://docs.aws.amazon.com/cli/latest/reference/s3api/create-bucket.html
 https://docs.aws.amazon.com/AmazonS3/latest/userguide/Welcome.html
 
 https://docs.aws.amazon.com/cli/latest/userguide/cli-services-s3-commands.html
+
+
+
+
+
+
+
+## My LAB Experience 
+
+## Task 1: Create a S3 bucket using AWS CLI
+
+
+## 1. Lauch AWS cloud shell
+Go to the AWS sign console.When you at the portal interface go to the notification bars and click on the first box from your right. Clicking on that will launch the AWS Cloud shell.
+
+## 2. Create a S3 bucket 
+
+I created the s3 bucket using the command line below.
+
+    aws s3 mb s3:// my-bucket-name --region us-east-1
