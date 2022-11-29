@@ -16,6 +16,30 @@ Task 1: Deploy VPC using Management console
 
 
 
+
+
+
+
+
+
+
+## 1. Launch the AWS Management Console
+
+I logged in unto my management console by using my user id and providing the MFA code for security reasons 
+
+## 2. Launch a VPC with one public sand one private subnets
+
+To achieving this i followed this steps ;
+  
+  (i) firstly, i choose my region. 
+  (ii) Secondly, clicked on the service icon and then seacrh for VPC which i clicked on when it popped up.
+  (iii) Thirdly, then clicked on create VPC and i created one , and 
+
+
+
+
+
+
 For guide, you are check the links below:
 
 https://docs.aws.amazon.com/cli/latest/reference/ec2/
