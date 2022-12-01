@@ -31,9 +31,16 @@ I logged in unto my management console by using my user id and providing the MFA
 
 To achieving this i followed this steps ;
   
-  (i) firstly, i choose my region. 
-  (ii) Secondly, clicked on the service icon and then seacrh for VPC which i clicked on when it popped up.
-  (iii) Thirdly, then clicked on create VPC and i created one , and 
+  Firstly, i choose my region.Then,clicked on the service icon and then seacrh for VPC which i clicked on when it popped up. Then clicked on create VPC and i created one , i discovered after creating the VPC it automatically created a route table that is private. Then, i created an internet gateway and attach the internet gateway to the VPC i created.(so that the instances of our subnet can have access to the internet)
+  
+  Note: You can only attach one internet gateway to a VPC
+
+After attaching the internet gateway i created a subnet and attached it to the my created VPC, Then i enable automatic assigning of IPV4 addresses.
+
+then i created a public route table , public route and then associated the public route table to the piublic subnet 1 and 2..... 
+When editing the route open the destination to 0.0.0/0 and the target to the internet gateway i created 
+
+Note: The major the difference between a public and private subnet is that a public subnet has an internet gatway attached to its route table.
 
 
 
