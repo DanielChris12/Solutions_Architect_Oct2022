@@ -62,4 +62,5 @@ aws ec2 create-route --route-table-id "rtb-0c0b5429a73a3136e" --destination-cidr
 
 
 
-![Uploading CLI VPC 03.png…]()
+![CLI VPC 02](https://user-images.githubusercontent.com/105374941/207685948-98a59ef9-ae4e-4dc9-93de-b36b5aa37d38.png)
+
